@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@
+
+override_dh_installdocs:
+	dh_installdocs
+	cp NOTICE debian/libvo-aacenc0/usr/share/doc/libvo-aacenc0

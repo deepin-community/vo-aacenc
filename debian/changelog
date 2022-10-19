@@ -1,0 +1,71 @@
+vo-aacenc (0.1.3-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Team upload.
+  * d/copyright: Use https protocol in Format field
+  * d/control: Deprecating priority extra as per policy 4.0.1
+  * d/control: Set Vcs-* to salsa.debian.org
+
+  [ Felipe Sateler ]
+  * Change maintainer address to debian-multimedia@lists.debian.org
+
+  [ Ondřej Nový ]
+  * d/watch: Use https protocol
+
+  [ Sebastian Ramacher ]
+  * debian/: Bump debhelper compat to 12
+  * debian/copyright: Simplify
+  * debian/rules: Install NOTICE
+  * debian/control:
+    - Bump Standards-Version
+    - Set RRR: no
+    - Drop Andres Mejia from Uploaders (Closes: #743550)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Wed, 20 Nov 2019 21:11:25 +0100
+
+vo-aacenc (0.1.3-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream bugfix release.
+  * Remove myself from Uploaders field.
+  * Fix VCS urls.
+  * Update debian/copyright.
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Tue, 27 Aug 2013 11:51:07 +0100
+
+vo-aacenc (0.1.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add myself to uploaders field.
+  * Bump to Standards-Version 3.9.3.
+  * Remove symbols files.
+  * Include static library in dev package.
+  * Show compiler flags during build.
+  * Make dpkg-source options default for packaging.
+  * Add lintian override for package-needs-versioned-debhelper-build-depends.
+  * Change Priority of packages.
+
+ -- Andres Mejia <amejia@debian.org>  Sun, 18 Mar 2012 13:23:11 -0400
+
+vo-aacenc (0.1.1-2) unstable; urgency=low
+
+  * Build with Multiarch.
+  * Add --parallel to DH sequencer's options.
+  * Fix small syntax error in debian/copyright.
+
+ -- Alessio Treglia <alessio@debian.org>  Mon, 13 Feb 2012 18:36:33 +0100
+
+vo-aacenc (0.1.1-1) unstable; urgency=low
+
+  * Imported upstream 0.1.1 final release.
+  * Add symbols file.
+  * Add watch file.
+
+ -- Alessio Treglia <alessio@debian.org>  Fri, 20 May 2011 16:04:28 +0200
+
+vo-aacenc (0.1.0~rc1-1) unstable; urgency=low
+
+  * Initial release (Closes: 619885)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 29 Mar 2011 16:49:56 +0200
